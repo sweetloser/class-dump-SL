@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		736208B3201F735E00135748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736208B2201F735E00135748 /* main.m */; };
+		BF8120092992587D003A4476 /* SLArgumentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8120082992587D003A4476 /* SLArgumentsModel.m */; };
+		BF81200D29925912003A4476 /* SLUsageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81200C29925912003A4476 /* SLUsageManager.m */; };
+		BF81201229925A2A003A4476 /* SLContants.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81201129925A2A003A4476 /* SLContants.m */; };
+		BF81201729925E39003A4476 /* SLDumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81201629925E39003A4476 /* SLDumpManager.m */; };
+		BF9EEB1A2994E8110018B8BA /* NSString+CDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EEB192994E8110018B8BA /* NSString+CDExtensions.m */; };
+		BF9EEB1E2994EDDD0018B8BA /* SLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EEB1D2994EDDD0018B8BA /* SLFile.m */; };
+		BF9EEB212994F33F0018B8BA /* SLFatFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EEB202994F33F0018B8BA /* SLFatFile.m */; };
+		BF9EEB242994F3560018B8BA /* SLMachOFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EEB232994F3560018B8BA /* SLMachOFile.m */; };
+		BF9EEB272994F80B0018B8BA /* SLDataCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9EEB262994F80B0018B8BA /* SLDataCursor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,25 @@
 /* Begin PBXFileReference section */
 		736208AF201F735E00135748 /* class-dump-SL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "class-dump-SL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736208B2201F735E00135748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8120072992587D003A4476 /* SLArgumentsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLArgumentsModel.h; sourceTree = "<group>"; };
+		BF8120082992587D003A4476 /* SLArgumentsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLArgumentsModel.m; sourceTree = "<group>"; };
+		BF81200B29925912003A4476 /* SLUsageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUsageManager.h; sourceTree = "<group>"; };
+		BF81200C29925912003A4476 /* SLUsageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUsageManager.m; sourceTree = "<group>"; };
+		BF81201029925A2A003A4476 /* SLContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLContants.h; sourceTree = "<group>"; };
+		BF81201129925A2A003A4476 /* SLContants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLContants.m; sourceTree = "<group>"; };
+		BF81201329925A39003A4476 /* SLMarcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMarcos.h; sourceTree = "<group>"; };
+		BF81201529925E39003A4476 /* SLDumpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDumpManager.h; sourceTree = "<group>"; };
+		BF81201629925E39003A4476 /* SLDumpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDumpManager.m; sourceTree = "<group>"; };
+		BF9EEB182994E8110018B8BA /* NSString+CDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CDExtensions.h"; sourceTree = "<group>"; };
+		BF9EEB192994E8110018B8BA /* NSString+CDExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDExtensions.m"; sourceTree = "<group>"; };
+		BF9EEB1C2994EDDD0018B8BA /* SLFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLFile.h; sourceTree = "<group>"; };
+		BF9EEB1D2994EDDD0018B8BA /* SLFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFile.m; sourceTree = "<group>"; };
+		BF9EEB1F2994F33F0018B8BA /* SLFatFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLFatFile.h; sourceTree = "<group>"; };
+		BF9EEB202994F33F0018B8BA /* SLFatFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFatFile.m; sourceTree = "<group>"; };
+		BF9EEB222994F3560018B8BA /* SLMachOFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMachOFile.h; sourceTree = "<group>"; };
+		BF9EEB232994F3560018B8BA /* SLMachOFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMachOFile.m; sourceTree = "<group>"; };
+		BF9EEB252994F80B0018B8BA /* SLDataCursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDataCursor.h; sourceTree = "<group>"; };
+		BF9EEB262994F80B0018B8BA /* SLDataCursor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDataCursor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +85,76 @@
 		736208B1201F735E00135748 /* class-dump-SL */ = {
 			isa = PBXGroup;
 			children = (
+				BF9EEB1B2994EDA90018B8BA /* SLFiles */,
+				BF9EEB172994E7CA0018B8BA /* SLCategorys */,
+				BF81201429925E07003A4476 /* SLDumpController */,
+				BF81200E299259F2003A4476 /* SLConstants */,
+				BF81200A299258EF003A4476 /* SLUsage */,
+				BF812006299257E3003A4476 /* SLArguments */,
 				736208B2201F735E00135748 /* main.m */,
 			);
 			path = "class-dump-SL";
+			sourceTree = "<group>";
+		};
+		BF812006299257E3003A4476 /* SLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				BF8120072992587D003A4476 /* SLArgumentsModel.h */,
+				BF8120082992587D003A4476 /* SLArgumentsModel.m */,
+			);
+			path = SLArguments;
+			sourceTree = "<group>";
+		};
+		BF81200A299258EF003A4476 /* SLUsage */ = {
+			isa = PBXGroup;
+			children = (
+				BF81200B29925912003A4476 /* SLUsageManager.h */,
+				BF81200C29925912003A4476 /* SLUsageManager.m */,
+			);
+			path = SLUsage;
+			sourceTree = "<group>";
+		};
+		BF81200E299259F2003A4476 /* SLConstants */ = {
+			isa = PBXGroup;
+			children = (
+				BF81201029925A2A003A4476 /* SLContants.h */,
+				BF81201129925A2A003A4476 /* SLContants.m */,
+				BF81201329925A39003A4476 /* SLMarcos.h */,
+			);
+			path = SLConstants;
+			sourceTree = "<group>";
+		};
+		BF81201429925E07003A4476 /* SLDumpController */ = {
+			isa = PBXGroup;
+			children = (
+				BF81201529925E39003A4476 /* SLDumpManager.h */,
+				BF81201629925E39003A4476 /* SLDumpManager.m */,
+			);
+			path = SLDumpController;
+			sourceTree = "<group>";
+		};
+		BF9EEB172994E7CA0018B8BA /* SLCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				BF9EEB182994E8110018B8BA /* NSString+CDExtensions.h */,
+				BF9EEB192994E8110018B8BA /* NSString+CDExtensions.m */,
+			);
+			path = SLCategorys;
+			sourceTree = "<group>";
+		};
+		BF9EEB1B2994EDA90018B8BA /* SLFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BF9EEB1C2994EDDD0018B8BA /* SLFile.h */,
+				BF9EEB1D2994EDDD0018B8BA /* SLFile.m */,
+				BF9EEB1F2994F33F0018B8BA /* SLFatFile.h */,
+				BF9EEB202994F33F0018B8BA /* SLFatFile.m */,
+				BF9EEB222994F3560018B8BA /* SLMachOFile.h */,
+				BF9EEB232994F3560018B8BA /* SLMachOFile.m */,
+				BF9EEB252994F80B0018B8BA /* SLDataCursor.h */,
+				BF9EEB262994F80B0018B8BA /* SLDataCursor.m */,
+			);
+			path = SLFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9EEB212994F33F0018B8BA /* SLFatFile.m in Sources */,
+				BF81201229925A2A003A4476 /* SLContants.m in Sources */,
+				BF9EEB272994F80B0018B8BA /* SLDataCursor.m in Sources */,
+				BF9EEB242994F3560018B8BA /* SLMachOFile.m in Sources */,
 				736208B3201F735E00135748 /* main.m in Sources */,
+				BF8120092992587D003A4476 /* SLArgumentsModel.m in Sources */,
+				BF9EEB1E2994EDDD0018B8BA /* SLFile.m in Sources */,
+				BF81200D29925912003A4476 /* SLUsageManager.m in Sources */,
+				BF9EEB1A2994E8110018B8BA /* NSString+CDExtensions.m in Sources */,
+				BF81201729925E39003A4476 /* SLDumpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,18 +336,22 @@
 		736208B7201F735E00135748 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VX337297RV;
+				DEVELOPMENT_TEAM = G854HJ6U58;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		736208B8201F735E00135748 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VX337297RV;
+				DEVELOPMENT_TEAM = G854HJ6U58;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
